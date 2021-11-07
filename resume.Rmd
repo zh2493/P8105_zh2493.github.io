@@ -1,0 +1,155 @@
+---
+title: "ZiqianHe_resume"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: false
+# uncomment this line to produce HTML and PDF in RStudio:
+#knit: pagedown::chrome_print
+---
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i> zh2493@cumc.columbia.edu
+- <i class="fa fa-github"></i> [github.com/zh2493](https://github.com/zh2493)
+- <i class="fa fa-phone"></i> +1 646-247-6518
+- For more information, please contact me via email.
+
+
+Skills {#skills}
+--------------------------------------------------------------------------------
+
+- SPSS
+
+- Python 
+
+- R
+
+
+PUBLICATION {#publication}
+--------------------------------------------------------------------------------
+
+- He, Zi Qian , et al. "Chemical Composition, Antibacterial, Antioxidant and Cytotoxic Activities of the Essential Oil of Dianella ensifolia." Records of Natural Products 14.2(2019):160-165.
+
+- Li, M. Y. , Shen, L. , Tang, S. , He, Z. Q. , & Lai, P. X. . (2020). Chemical composition and antibacterial activity of the essential oil of viola lactiflora. Chemistry of Natural Compounds, 56(1).
+
+
+
+Main
+================================================================================
+
+Ziqian He {#title}
+--------------------------------------------------------------------------------
+
+A first year student in Columbia University.
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### Columbia in the city of New York 
+
+(Columbia University Mailman School of Public Health)
+
+Ms in Biostatistics (public health of data science)      
+
+Expected 2023
+
+Track: phds
+
+### Shandong University, Wei hai (985 Project)
+
+Bachelor of science in Applied Chemistry           
+
+2017
+
+Major GPA:87.4/100      Overall GPA: 84.62/100        WES:3.62/4
+
+
+
+Research Experience {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+### Research on the essential oil
+
+*Research project leader at Shandong University  
+
+PI: Professor PengXiang, Lai    
+Sept. 2018 – June 2021
+
+-Goal: Study the antibacterial and antioxidant effects of the essential oil in order to reduce the use of antibiotics and antioxidants and overcome the resistance to these drugs. 	
+
+### Research on the polysaccharides
+
+*Research project leader at Higher Education Mega Center Hospital,Guangdong Provincial Hospital of Chinese Medicine and The Second Clinical College of Guangzhou University of Chinese Medicine
+
+PI: Professor Wei, Zhu                                              June 2020 –Sept. 2020
+
+
+- Aim: To determine the optimum extraction technology of polysaccharides from Traditional Chinese medicine Pao Tianxiong in order to prepare for further research. 	
+
+  
+
+Internship {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+### Sales Analyst, intern
+
+EPO FASHION CO., LTD.
+
+Guangdong, China
+
+July. 2019 –  Sept. 2019
+
+::: concise
+-	Visualize the data in real-time and analyze the causes of sudden abnormal performance and fluctuations. 
+- Analyze the sales status, cost of sales and the profit of some areas, and summarize periodic performance summary and analysis report.
+- Conducted exploratory data analysis (EDA) with Python to explore the possible reasons that have caused customer churn.
+:::
+
+### English Teacher
+
+Deyi Science Educational Institution.
+
+Guangdong, China
+
+July. 2021 –  August. 2021
+
+::: concise
+- Taught English to Years 14-18 and produced engaging content and slideshows to inspire students that were initially disillusioned with learning. 
+- Build a good relation among various student groups and prepare proper future planning with them.
+- Studied tumor metastasis and wrote research reports. 
+- Prepare students for quizzrs and relay information to parents regularlly.
+:::
+
+
+Project Experience {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+### A comparison between the human gene sequences with different animals.
+
+*Trained a Naive Bayesian model with vectorized human DNA sequences; predicted human gene families based on the model, achieving an accuracy of 98.4% on unseen data
+
+*Applied the model to human, dog, and chimpanzees DNA to further validate the model accuracy; a 99% accuracy from chimpanzees DNA sequence (which are more similar to human) as compared to a 92% accuracy from dog sequence implies the results make sense 
+
+
+### Predicting the spread of COVID with machine learning models.
+
+*Plotted the correlation between the number of deaths and various factors that reflect the spread rate of COVID; used Fischer test to quantify the correlation.
+
+*Predicted the number of infections and COVID-related death cases in New York City with a Linear Regression model and a SVR model, achieving a R-squared of 0.85
+
+*Analyzed the effectiveness of the adopted policies to the pandemic through comparing the related data from Wuhan, China with that from NYC
+
+
+
+Extracurricular  Experience {data-icon=file}
+--------------------------------------------------------------------------------
+
+### Teaching Assistant
+
+Marine College, Shandong University, Weihai
+
+Shandong, China
+
+October. 2020 –  Present
+
