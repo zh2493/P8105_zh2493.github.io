@@ -1,0 +1,24 @@
+---
+title: "hw4_zh2493"
+output: 
+  html_document:
+    code_folding: hide
+    toc: true
+    toc_float: true
+---
+it a website from Ziqian He
+
+## This is zh2493's website
+
+
+![](image/wl.jpg){width=80% }
+
+## Link to my resume
+[Resume](resume.html)
+
+## Links to other websites
+
+* [Google](https://www.google.com/)
+* [P8105](https://www.p8105.com/)
+
+## plotly_NOAA

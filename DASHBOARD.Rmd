@@ -1,0 +1,67 @@
+---
+title: "dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(tidyverse)
+library(plotly)
+```
+
+
+```{r, message = FALSE}
+data(ny_noaa)
+```
+
+```{r, message = FALSE}
+weather_df = 
+  ny_noaa %>% 
+  na.omit %>% 
+  mutate(tmax = as.numeric(tmax), tmin = as.numeric(tmin),
+           tmin = tmin / 10,
+    tmax = tmax / 10) %>% 
+  subset(date > "2008-01-01" & date < "2008-12-31") 
+  
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+weather_df %>% 
+  filter(id %in% c("USC00300023", "USC00300055", "USC00304555", "USC00300961", "USC00303284")) %>% 
+  mutate(text_label = str_c("tmax", tmax, "\ntmin", tmin)) %>% 
+plot_ly(
+  x = ~tmin, y = ~tmax, type = "scatter", mode = "markers",
+  color = ~id, text = ~text_label, alpha = 0.5)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+weather_df %>% 
+  filter(id %in% c("USC00300023", "USC00300055", "USC00304555", "USC00300961", "USC00303284")) %>% 
+  mutate(id = fct_reorder(id, tmin)) %>% 
+  plot_ly(y = ~tmin, color = ~id, type = "box", colors = "viridis")
+```
+
+### Chart C
+
+```{r}
+weather_df %>% 
+  filter(id %in% c("USC00300023", "USC00300055", "USC00304555", "USC00300961", "USC00303284")) %>% 
+  mutate(id = fct_reorder(id, tmin)) %>% 
+  plot_ly(y = ~tmin, color = ~id, type = "bar", colors = "viridis")
+```
+
